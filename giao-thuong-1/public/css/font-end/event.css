@@ -1,0 +1,106 @@
+div#content {
+    margin: 2%;
+}
+.bannerhome-event {
+    margin-top: 40px;
+}
+.mart-right {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 25px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+}
+.mart-right .mart-item {
+    padding-bottom: 30px;
+    line-height: 1;
+}
+.mart-right .mart-item p {
+    font-size: 13px;
+}
+.mart-right .mart-item h5 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+.elementor {
+    background: #fff;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.elementor .event-link li {
+    float: left;
+    list-style-type: none;
+    padding-right: 25px;
+}
+.elementor .event-link ul{
+    padding: 0;
+}
+.elementor .event-content {
+    display: inline-block;
+    margin-top: 40px;
+}
+.elementor .browse__location-text {
+    float: left;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .5px;
+    line-height: 40px;
+}
+.eds-autocomplete-field__dropdown-holder {
+    position: relative;
+}
+.eds-field-styled__border-simulation.eds-field-styled__border-simulation--empty {
+    background: none!important;
+    border-radius: 2px;
+    background: #dbdae3;
+    background: var(--eds-ui-300,#dbdae3);
+    padding: 1px;
+    position: relative;
+    -webkit-transition: background .24s cubic-bezier(.4,0,.3,1);
+    transition: background .24s cubic-bezier(.4,0,.3,1);
+}
+input#locationPicker {
+    width: 50%;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .5px;
+    line-height: 40px;
+    color: #3d64ff;
+    padding-left: 10px;
+}
+.elementor .event-link {
+    display: flex;
+    margin-bottom: 40px;
+}
+.elementor .feed-events-bucket .gal-box img {
+    width: 100%;
+}
+.elementor .feed-builder .gal-box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 30px;
+}
+.elementor .feed-builder .gal-box .gall-info {
+    padding: 20px 0 0 10px;
+}
+.elementor .feed-builder .gal-box .gall-info h6 {
+    font-size: 15px;
+    color: #d1410c;
+}
+.elementor .feed-builder .gal-box .gall-info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c757d;
+}
+.elementor  .browse__location.eds-l-pad-top-8 {
+    margin-bottom: 20px;
+}

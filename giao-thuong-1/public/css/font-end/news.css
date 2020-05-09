@@ -1,0 +1,80 @@
+div#content {
+    margin: 2%;
+}
+.col-md-9.banner-left {
+    margin-bottom: 30px;
+}
+.bannerhome-news .banner-right .mart {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 25px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+}
+.bannerhome-news .banner-right .mart .mart-item {
+    padding-bottom: 30px;
+    line-height: 1;
+}
+.bannerhome-news .banner-right .mart .mart-item p {
+    font-size: 13px;
+}
+.bannerhome-news .banner-right .mart .mart-item h5 {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.bannerhome-news .elementor {
+    background: #fff;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+.bannerhome-news .elementor .news-left-content {
+    padding: 10px;
+}
+.bannerhome-news .elementor .news-right-top {
+    padding: 10px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    margin-top: 10px;
+}
+.bannerhome-news .elementor .news-right-bottom {
+    padding: 10px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    margin-top: 30px;
+}
+.bannerhome-news .elementor .news-right-top img {
+    width: 100%;
+}
+.bannerhome-news .elementor .news-right-bottom img {
+    width: 100%;
+}
+
+.bannerhome-news .elementor .news-left .document {
+    padding: 10px;
+    border-top: 1px solid #eee;
+    line-height: 1;
+}
+.bannerhome-news .elementor .news-left p{
+    font-size: 14px
+}
+.tabs {
+    background: #fff;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    padding: 20px;
+}
+.tabs .tabs-list {
+    display: inline-block;
+    border-bottom: 1px dotted;
+}
+.tabs .tabs-item {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+.tabs .tabs-item img {
+    width: 230px;
+    height: 155px;
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px;
+}

@@ -1,0 +1,72 @@
+#!/usr/bin/env php
+<?php
+error_reporting(1);
+
+define('APP_PATH', dirname(__FILE__) . DIRECTORY_SEPARATOR . 'app');
+
+set_include_path(APP_PATH .DIRECTORY_SEPARATOR .'Libraries'. PATH_SEPARATOR . get_include_path());
+
+include_once APP_PATH . '/Libraries/Autoload/Autoload.php';
+\App\Libraries\Autoload\Autoload::register();
+
+use App\Libraries\Cmd\Route;
+
+$argv = $GLOBALS['argv'];
+
+unset($argv[0]);
+
+if (! isset($argv[1])) {
+    die("Missing command's name.");
+}
+
+$commandName = array_shift($argv);
+$routes = Route::get();
+
+if (! isset($routes[$commandName])) {
+    die("Command [{$commandName}] was not registered.");
+}
+
+$commandExecute = $routes[$commandName]['execute'];
+$parseCommandExecute = explode('@', $commandExecute);
+if(count($parseCommandExecute) < 2)
+{
+    die("Invalid declaration for command.");
+}
+
+list($commandClass, $commandAction) = $parseCommandExecute;
+
+try
+{
+    $command = new $commandClass($commandName, $routes[$commandName]['help']);
+    $status = call_user_func_array([$command, $commandAction], $argv);
+}
+catch (Exception $exception)
+{
+    echo "> {$routes[$commandName]['help']}";
+}
+catch (ArgumentCountError $exception)
+{
+    echo "> {$routes[$commandName]['help']}";
+}
+
+if($status)
+{
+    echo "> $status";
+}
+
+function dd($params){
+    $args = func_get_args();
+    foreach ($args as $arg)
+    {
+        if(is_scalar($arg) || is_null($arg))
+        {
+            var_dump($arg);
+            echo '<br>';
+        }
+        else{
+            echo '<pre>';
+            print_r($arg);
+        }
+    }
+    die;
+}

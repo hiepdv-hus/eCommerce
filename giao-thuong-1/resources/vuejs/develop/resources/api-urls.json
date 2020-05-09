@@ -1,0 +1,27 @@
+{
+  "auth": {
+    "login": "auth/login",
+    "logout": "auth/logout"
+  },
+
+  "statistic": {
+    "detail": "detail"
+  },
+
+  "category": {
+    "list": "category",
+    "list-all": "category/list"
+  },
+
+  "news": {
+    "list": "news/list",
+    "add": "news/add",
+    "edit": "news/edit"
+  },
+
+  "media": {
+    "list": "media/get-list",
+    "upload": "media-file/upload",
+    "delete": "media/delete"
+  }
+}

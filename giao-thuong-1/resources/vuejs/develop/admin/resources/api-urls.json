@@ -1,0 +1,69 @@
+{
+  "auth": {
+    "login": "auth/login",
+    "logout": "auth/logout"
+  },
+
+  "article": {
+    "detail": "article/get-detail",
+    "list": "article/get-list",
+    "add": "article/add",
+    "update": "article/update",
+    "delete": "article/delete"
+  },
+
+  "article-category": {
+    "detail": "",
+    "list": "article/category/get-list",
+    "add": "article/category/add",
+    "update": "article/category/update",
+    "delete": "article/category/delete"
+  },
+
+  "media": {
+    "list": "media/get-list",
+    "upload": "media-file/upload",
+    "delete": "media/delete"
+  },
+
+  "dashboard": {
+    "upload": "upload",
+    "update-cv": "update-cv"
+  },
+
+  "system-user": {
+    "add": "system-user/add",
+    "update": "system-user/update",
+    "delete": "system-user/delete",
+    "detail": "system-user/get-detail",
+    "list": "system-user/get-list"
+  },
+
+  "customer": {
+    "add": "customer/add",
+    "update": "customer/update",
+    "delete": "customer/delete",
+    "detail": "customer/get-detail",
+    "list": "customer/get-list"
+  },
+
+  "news": {
+      "list": "news/get-list",
+      "add": "news/add",
+      "detail": "news/get-detail",
+      "update": "news/update",
+      "delete": "news/delete"
+  },
+
+  "event": {
+      "list": "event/get-list",
+      "add": "event/add",
+      "detail": "event/get-detail",
+      "update": "event/update",
+      "delete": "event/delete"
+  },
+
+    "category": {
+        "list": "category/get-list_news"
+    }
+}

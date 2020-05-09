@@ -1,0 +1,420 @@
+div#content {
+    margin: 2%;
+}
+.bannerhome {
+    /*border: 1px solid #ced4da;*/
+    border-radius: 3px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+}
+.bannerhome .top-card-layout {
+    border-radius: 2px;
+}
+.layout-card {
+    background-color: #fff;
+    padding: 24px;
+    position: relative;
+}
+.layout-card img{
+    border: 2px solid #ced4da;
+    margin: -80px 0 12px;
+    width: 120px;
+    border-radius: 4px;
+}
+.layout-card .name-followers {
+    margin: -70px 0 0 140px;
+}
+
+.layout-card .name-followers p {
+    font-size: 14px;
+    line-height: 1;
+    color: rgb(119, 127, 135);
+}
+
+a.top-card-layout__cta.top-card-layout__cta--secondary {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;
+    color: #0073b1;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #0073b1;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    height: 35px;
+    line-height: 32px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+    -webkit-box-shadow: inset 0 0 0 1px #0073b1, inset 0 0 0 2px rgba(0,0,0,0), inset 0 0 0 1px rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 1px #0073b1, inset 0 0 0 2px rgba(0,0,0,0), inset 0 0 0 1px rgba(0,0,0,0);
+}
+a.top-card-layout__cta.top-card-layout__cta--primary {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    background-color: #0073b1;
+    border: 0;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    height: 35px;
+    line-height: 31px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 167ms;
+    transition-duration: 167ms;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,box-shadow,color;
+    transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    vertical-align: middle;
+    z-index: 0;
+}
+.layout-info {
+    margin-top: 30px;
+    /* padding: 20px 0; */
+}
+.layout-info-left .layout-icon a.share-social {
+    padding-right: 20px;
+    font-size: 20px;
+}
+.layout-info-right {
+    padding: 0 25px;
+}
+.layout-info-right a {
+    font-size: 15px;
+    font-weight: 500;
+}
+.layout-icon {
+    display: inline-block;
+    padding: 0 20px;
+}
+.layout-info-right a.border-between {
+    border-left: 1px solid;
+    border-radius: 1px solid;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top-card-layout__ellipsis-menu {
+    margin: 4px 16px 0 0;
+}
+
+.ellipsis-menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.collapsible-dropdown {
+    padding: 7px;
+    background: #eee;
+    border-radius: 50%;
+}
+
+.elementors {
+    margin-top: 20px;
+}
+.col-md-8.elementor-left {
+    margin-bottom: 25px;
+}
+.elementors .information {
+    /*border: 1px solid #ced4da;*/
+    background-color: #fff;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+}
+.elementors .information-title {
+    border-bottom: 1px solid #ced4da;
+    padding: 15px 25px 10px 25px;
+}
+.elementors .information-title h6{
+    font-weight: 500;
+}
+.elementors .information-content {
+    padding: 20px 25px;
+}
+.elementors .information-content a {
+    margin-right: 10px;
+    padding: 2px 5px 5px 8px;
+    border-radius: 4px;
+}
+.elementors .information-content a i.fab{
+    color: #fff;
+    font-size: 14px;
+}
+.elementors .information-content a span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.elementors .information-content .link-content {
+    padding: 20px 0;
+}
+.elementors .information-content .link-content p {
+    font-size: 14px;
+}
+.elementors .information-detail h5 {
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 15px;
+}
+.elementors .information-detail .detail-content {
+    padding-top: 10px;
+}
+
+.elementors .introduce {
+    /*border: 1px solid #ced4da;*/
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+}
+.elementors .introduce-title {
+    border-bottom: 1px solid #ced4da;
+    padding: 15px 25px 10px 25px;
+}
+.elementors .introduce-title h6{
+    font-weight: 500;
+}
+.elementors .introduce-content .link-content{
+    padding: 15px 25px 10px 25px;
+}
+.elementors .introduce-content .link-content p{
+    font-size: 14px;
+}
+.elementors .introduce-content .itroduce-image {
+    padding: 0 25px;
+}
+.elementors .introduce-content .itroduce-image img {
+    margin-bottom: 20px;
+}
+.elementors .photo-content {
+    padding: 25px;
+}
+.elementors .evaluate-content {
+    padding: 25px;
+}
+.elementors .evaluate-content p{
+    font-size: 14px;
+}
+.elementors .evaluate-content ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.elementors .evaluate-content ul li a {
+    padding-right: 15px;
+    font-size: 20px;
+}
+.elementors .evaluate-content textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    font-size: 15px;
+    resize: none;
+}
+.elementors .evaluate-content button.btn.btn-danger {
+    margin-top: 10px;
+}
+
+.elementors .statistical-content {
+    padding: 25px;
+}
+.elementors .statistical-content .comment .comment-people img {
+    margin-top: 7px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.elementors .statistical-content .comment .comment-people .author {
+    padding-right: 10%;
+}
+.elementors .statistical-content .statistical-progress-item p {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 19px;
+    font-size: 13px;
+    line-height: 0;
+}
+.elementors .statistical-content .statistical-progress-item .w3-light-grey {
+    width: 45%;
+    margin-left: 50%;
+}
+.elementors .statistical-content .statistical-progress-item {
+    display: flow-root;
+}
+.elementor .statistical-content .statistical-tables {
+    border-right: 5px solid #6c757da1;
+}
+.elementors .statistical-content .statistical-tables .statistical-progress {
+    padding-top: 10px;
+}
+.elementors .statistical-content .statistical-tables-right .progress-star {
+    margin-right: 76%;
+    padding: 7px 0px 5px 10px;
+    background: #00cc00;
+    border-radius: 5px;
+}
+.elementors .statistical-content .statistical-tables-right .progress-star span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.elementors .statistical-content .statistical-tables-right .progress-star i.fas.fa-star {
+    position: absolute;
+    padding-left: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.elementors .statistical-content .statistical-tables-right h5 {
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+.elementors .statistical-content .statistical-tables-right p{
+    float: right;
+    margin-top: -45px;
+    margin-right: 33%;
+    font-size: 14px
+}
+.elementors .statistical-content .result {
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 20px;
+}
+.elementors .statistical-content .comment {
+    margin-top: 50px;
+}
+.elementors .statistical-content .author .list-like ul {
+    padding: 0;
+}
+.elementors .statistical-content .author .list-like ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.elementors .statistical-content .author .list-like ul li a span {
+    font-size: 13px;
+    color: #6c757dcf;
+}
+.elementors .statistical-content .author .list-like ul li a i.fab {
+    padding: 5px;
+}
+.elementors .statistical-content .author p.date {
+    font-size: 13px;
+    color: #6c757dcf;
+    line-height: 0.5;
+}
+.elementors .statistical-content .comment .comment-item {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ced4da;
+}
+.elementors .statistical-content .author h4 span.author-star {
+    padding: 5px 14px 3px 5px;
+    background: #00cc00;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.elementors .statistical-content .author h4 span.author-star i.fas.fa-star {
+    position: absolute;
+    font-size: 10px;
+}
+.elementors .elementor-right .manager {
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 25px;
+}
+.elementors .elementor-right .manager .layout-loaded {
+    background-color: #fff;
+    padding: 24px;
+    position: relative;
+}
+.elementors .elementor-right .manager .layout-loaded img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: -80px 0 12px;
+}
+.elementors .elementor-right .manager .layout-loaded .layout-infomation a {
+    color: inherit;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    background: #1b597b;
+    padding: 11px 100px;
+    border-radius: 2px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.elementors .elementor-right .manager .layout-loaded .layout-infomation h4 {
+    line-height: 1;
+    margin-top: -5px;
+    font-weight: 500;
+}
+
+.elementors .elementor-right .manager .layout-loaded .layout-infomation .link-manager {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.elementors .elementor-right .manager-enterprise {
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #fff;
+}
+.elementors .elementor-right .manager-enterprise h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.elementors .elementor-right .manager-enterprise .enterprise-list .enterprise-item {
+    margin-bottom: 30px;
+}
+.elementors .elementor-right .manager-enterprise .enterprise-list img{
+    border: 3px solid #eee;
+    width: 94px;
+    float: left;
+    margin-right: 10px;
+}
+.elementors .elementor-right .manager-enterprise .enterprise-content p {
+    font-size: 13px;
+    line-height: 1;
+    margin-top: -8px;
+}
