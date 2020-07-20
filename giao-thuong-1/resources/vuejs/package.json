@@ -25,7 +25,7 @@
         "css-loader": "^3.0.0",
         "jquery": "^2.2.4",
         "laravel-mix": "^4.0.16",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.19",
         "pace": "github:HubSpot/pace#v1.0.2",
         "popper.js": "^1.14.6",
         "vue": "^2.6.10"
